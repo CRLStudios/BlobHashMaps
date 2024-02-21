@@ -14,7 +14,7 @@ using Unity.Entities;
 using Unity.Mathematics;
 using UnityEditor.Compilation;
 
-namespace BlobHashMaps.Data
+namespace CRL.BlobHashMaps.Data
 {
     internal ref struct BlobBuilderHashMapData<TKey, TValue> 
         where TKey : struct, IEquatable<TKey>

@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using Unity.Collections;
 using Unity.Entities;
 
-namespace BlobHashMaps
+namespace CRL.BlobHashMaps
 {
     /// <summary>
     /// Extension methods for BlobBuilder to allocate BlobHashMaps with

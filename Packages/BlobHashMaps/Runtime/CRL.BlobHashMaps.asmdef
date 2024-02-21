@@ -1,6 +1,6 @@
 {
-    "name": "BlobHashMaps",
-    "rootNamespace": "BlobHashMaps",
+    "name": "CRL.BlobHashMaps",
+    "rootNamespace": "CRL.BlobHashMaps",
     "references": [
         "Unity.Entities",
         "Unity.Collections",

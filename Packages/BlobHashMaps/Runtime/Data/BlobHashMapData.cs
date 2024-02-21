@@ -12,7 +12,7 @@ using System;
 using Unity.Collections;
 using Unity.Entities;
 
-namespace BlobHashMaps.Data
+namespace CRL.BlobHashMaps.Data
 {
     /*
      * Basically the same implementation as Unity's NativeHashMap, except it uses BlobArray

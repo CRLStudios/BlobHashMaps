@@ -1,0 +1,11 @@
+{
+  "name": "com.crlstudios.blobhashmaps",
+  "displayName": "CRL.BlobHashMaps",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Implementation of BlobHashMap",
+  "dependencies": {
+    "com.unity.entities": "1.0.16"
+  },
+  "type": "library"
+}

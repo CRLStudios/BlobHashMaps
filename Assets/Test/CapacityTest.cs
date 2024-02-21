@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Diagnostics;
 using System.Text;
-using BlobHashMaps;
+using CRL.BlobHashMaps;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;

@@ -9,11 +9,11 @@
 #endif
 
 using System;
-using BlobHashMaps.Data;
+using CRL.BlobHashMaps.Data;
 using Unity.Collections;
 using Unity.Entities;
 
-namespace BlobHashMaps
+namespace CRL.BlobHashMaps
 {
     /// <summary>
     /// A read only multihashmap that can be used as inside blob asset

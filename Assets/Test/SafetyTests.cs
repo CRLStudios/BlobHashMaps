@@ -4,7 +4,7 @@
 
 using System;
 using System.Collections.Generic;
-using BlobHashMaps;
+using CRL.BlobHashMaps;
 using Unity.Assertions;
 using Unity.Collections;
 using Unity.Entities;

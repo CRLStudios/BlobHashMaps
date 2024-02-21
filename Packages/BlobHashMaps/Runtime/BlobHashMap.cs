@@ -10,11 +10,11 @@
 
 using System;
 using System.Collections.Generic;
-using BlobHashMaps.Data;
+using CRL.BlobHashMaps.Data;
 using Unity.Collections;
 using Unity.Entities;
 
-namespace BlobHashMaps
+namespace CRL.BlobHashMaps
 {
     /// <summary>
     /// A read only hashmap that can be used inside a blob asset
