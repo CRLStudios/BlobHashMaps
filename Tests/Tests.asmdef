@@ -1,12 +1,17 @@
 {
-    "name": "Tests",
-    "rootNamespace": "",
+    "name": "CRL.BlobHashMap.Tests",
+    "rootNamespace": "CRL.BlobHashMap.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "BlobHashMaps"
+        "CRL.BlobHashMaps",
+        "Unity.Entities",
+        "Unity.Collections",
+        "Unity.Mathematics"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
