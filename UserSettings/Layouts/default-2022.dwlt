@@ -14,17 +14,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1
     y: 53
     width: 2560
     height: 1387
   m_ShowMode: 4
-  m_Title: Console
-  m_RootView: {fileID: 4}
+  m_Title: Inspector
+  m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProgressWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 998
+    width: 544
+    height: 339
+  m_MinSize: {x: 101, y: 91}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 15}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 2016
+    y: 0
+    width: 544
+    height: 1337
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 324
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,12 +96,12 @@ MonoBehaviour:
     height: 555
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &3
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,8 +114,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 2}
+  - {fileID: 12}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -74,8 +125,8 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 42
---- !u!114 &4
+  controlID: 22
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,9 +139,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 5}
   - {fileID: 7}
-  - {fileID: 6}
+  - {fileID: 9}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -103,7 +154,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &5
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &6
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,56 +197,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 8}
-  - {fileID: 13}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 2560
-    height: 1337
-  m_MinSize: {x: 300, y: 150}
-  m_MaxSize: {x: 24288, y: 24288}
-  vertical: 0
-  controlID: 39
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 12}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 2016
-    height: 1337
-  m_MinSize: {x: 200, y: 150}
-  m_MaxSize: {x: 16192, y: 24288}
-  vertical: 1
-  controlID: 40
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,8 +210,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 10}
   - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2560
+    height: 1337
+  m_MinSize: {x: 300, y: 150}
+  m_MaxSize: {x: 24288, y: 24288}
+  vertical: 0
+  controlID: 109
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
   - {fileID: 11}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2016
+    height: 1337
+  m_MinSize: {x: 200, y: 150}
+  m_MaxSize: {x: 16192, y: 24288}
+  vertical: 1
+  controlID: 117
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -220,8 +271,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 41
---- !u!114 &10
+  controlID: 50
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,12 +293,12 @@ MonoBehaviour:
     height: 445
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &11
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,13 +319,13 @@ MonoBehaviour:
     height: 1000
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 18}
+  - {fileID: 23}
+  - {fileID: 21}
   m_Selected: 1
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -284,7 +335,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -293,16 +344,16 @@ MonoBehaviour:
     y: 1000
     width: 2016
     height: 337
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 21}
-  - {fileID: 22}
-  - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &13
+  - {fileID: 24}
+  - {fileID: 25}
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,21 +368,55 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2016
+    x: 0
     y: 0
     width: 544
-    height: 1337
-  m_MinSize: {x: 276, y: 71}
+    height: 998
+  m_MinSize: {x: 276, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 23}
-  - {fileID: 16}
-  - {fileID: 24}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &14
+  - {fileID: 26}
+  - {fileID: 19}
+  - {fileID: 27}
+  - {fileID: 17}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13960, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 70}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Background Tasks
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2017
+    y: 1081
+    width: 543
+    height: 318
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,7 +451,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_EditorWindowInstanceKey: c1ae95cf698d46a3a80d80bf87599066
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -401,7 +486,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_EditorWindowInstanceKey: e0637d25179043149ed00b0d07403c66
---- !u!114 &16
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -422,10 +507,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2016
+    x: 2017
     y: 83
     width: 543
-    height: 1316
+    height: 977
   m_SerializedDataModeController:
     m_DataMode: 3
     m_PreferredDataMode: 0
@@ -449,7 +534,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -499,7 +584,6 @@ MonoBehaviour:
   - rid: 3772337790032805897
   - rid: 3772337790032805898
   - rid: 3772337790032805899
-  - rid: 3772338028481609728
   - rid: 3772337790032805900
   - rid: 3772337790032805901
   - rid: 3772337809094344705
@@ -1440,13 +1524,7 @@ MonoBehaviour:
       data:
         m_Identifier: RuntimeContentManagerProfilerModule, Unity.Entities.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    - rid: 3772338028481609728
-      type: {class: AddressablesProfilerModule, ns: UnityEditor.AddressableAssets.Diagnostics,
-        asm: Unity.Addressables.Editor}
-      data:
-        m_Identifier: UnityEditor.AddressableAssets.Diagnostics.AddressablesProfilerModule,
-          Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &18
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1468,7 +1546,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 272
-    y: 19
+    y: 83
     width: 1743
     height: 979
   m_SerializedDataModeController:
@@ -1545,7 +1623,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1566,8 +1644,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
+    x: 1
+    y: 83
     width: 270
     height: 424
   m_SerializedDataModeController:
@@ -1585,7 +1663,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1047fdff
+      m_ExpandedIDs: 98f0fdffdef0fdff4ef1fdffd0f2fdff4af5fdff9ef7fdffb206feff9a0bfeffb21efefffe20feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1609,7 +1687,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1743,7 +1821,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
-      index: 1
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1769,7 +1847,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Constraints
-      index: 3
+      index: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1782,7 +1860,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
-      index: 4
+      index: 2
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1834,7 +1912,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
-      index: 5
+      index: 3
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1847,7 +1925,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
-      index: 6
+      index: 4
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1860,7 +1938,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
-      index: 7
+      index: 5
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1873,7 +1951,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
-      index: 8
+      index: 6
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1938,7 +2016,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: APV Overlay
-      index: 9
+      index: 7
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1977,7 +2055,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
-      index: 10
+      index: 8
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2003,19 +2081,6 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 17
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Visual Effect
       index: 13
       layout: 4
       size: {x: 0, y: 0}
@@ -2028,8 +2093,21 @@ MonoBehaviour:
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
+      id: Scene View/Visual Effect
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
       id: Scene View/Visual Effect Model
-      index: 14
+      index: 10
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2042,7 +2120,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Visual Effect Timeline Control
-      index: 15
+      index: 11
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2055,7 +2133,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Visual Effect Event Tester
-      index: 16
+      index: 12
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2149,7 +2227,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2170,7 +2248,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1
     y: 1083
     width: 2015
     height: 316
@@ -2195,7 +2273,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Test
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -2203,16 +2281,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Miscellaneous/WireframeBlob
+  - Assets/Test
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Users/crlstudios/Downloads/EntityComponentSystemSamples-master/EntitiesSamples
+  m_LastProjectPath: /Users/crlstudios/GitHub/BlobHashMaps
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 546.3504}
-    m_SelectedIDs: c2080000
-    m_LastClickedID: 2242
-    m_ExpandedIDs: 
+    scrollPos: {x: 0, y: 64.9693}
+    m_SelectedIDs: 3c060000
+    m_LastClickedID: 1596
+    m_ExpandedIDs: 00000000000600005aee000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2228,7 +2306,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 14}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2265,26 +2343,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ae1f0000
-    m_LastClickedInstanceID: 8110
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ba8000000c8200009a820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: SafetyTests
+      m_OriginalName: SafetyTests
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 21478
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2296,7 +2374,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 227
---- !u!114 &22
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2318,7 +2396,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1019
+    y: 1083
     width: 2015
     height: 316
   m_SerializedDataModeController:
@@ -2331,7 +2409,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &23
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2352,10 +2430,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2017
-    y: 19
+    x: 2016
+    y: 83
     width: 543
-    height: 1316
+    height: 977
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2379,7 +2457,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2399,10 +2477,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2027
+    x: 2016
     y: 83
-    width: 533
-    height: 1316
+    width: 543
+    height: 977
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2414,12 +2492,12 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 607
+    ID: 3761
     splitterInitialOffset: 1005
     currentActiveSplitter: -1
     realSizes:
-    - 934
-    - 312
+    - 680
+    - 227
     relativeSizes:
     - 0.74959874
     - 0.25040126
@@ -2429,7 +2507,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 1246
+    lastTotalSize: 907
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -2439,14 +2517,14 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 24}
+    m_Window: {fileID: 27}
     m_NewResultList:
-    - id: 1020
-      uniqueId: '[MadSurvivors][suite]'
-      name: MadSurvivors
-      fullName: MadSurvivors
-      resultStatus: 1
-      duration: 0.0336216
+    - id: 1006
+      uniqueId: '[BlobHashMap][suite]'
+      name: BlobHashMap
+      fullName: BlobHashMap
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -2457,160 +2535,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1034
-      uniqueId: '[CRL.Survivors.Tests.dll][suite]'
-      name: CRL.Survivors.Tests.dll
-      fullName: /Users/crlstudios/GitHub/Survivors/SurvivorsSource/Library/ScriptAssemblies/CRL.Survivors.Tests.dll
-      resultStatus: 1
-      duration: 0.0248725
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1020
-      parentUniqueId: '[MadSurvivors][suite]'
-    - id: 1035
-      uniqueId: CRL.Survivors.Tests.dll/[CRL][suite]
-      name: CRL
-      fullName: CRL
-      resultStatus: 1
-      duration: 0.0222467
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1034
-      parentUniqueId: '[CRL.Survivors.Tests.dll][suite]'
-    - id: 1036
-      uniqueId: CRL.Survivors.Tests.dll/CRL/[Survivors][suite]
-      name: Survivors
-      fullName: CRL.Survivors
-      resultStatus: 1
-      duration: 0.0199109
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1035
-      parentUniqueId: CRL.Survivors.Tests.dll/[CRL][suite]
-    - id: 1037
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/[CRL.Survivors.Tests][CRL.Survivors.Tests][suite]
-      name: Tests
-      fullName: CRL.Survivors.Tests
-      resultStatus: 1
-      duration: 0.0178484
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1036
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/[Survivors][suite]
-    - id: 1029
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/[CRL.Survivors.Tests][CRL.Survivors.Tests.ServiceTests][suite]
-      name: ServiceTests
-      fullName: CRL.Survivors.Tests.ServiceTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1037
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/[CRL.Survivors.Tests][CRL.Survivors.Tests][suite]
-    - id: 1030
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/ServiceTests/[CRL.Survivors.Tests][CRL.Survivors.Tests.ServiceTests.ServiceTestsSimplePasses]
-      name: ServiceTestsSimplePasses
-      fullName: CRL.Survivors.Tests.ServiceTests.ServiceTestsSimplePasses
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1029
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/[CRL.Survivors.Tests][CRL.Survivors.Tests.ServiceTests][suite]
-    - id: 1031
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/ServiceTests/[CRL.Survivors.Tests][CRL.Survivors.Tests.ServiceTests.ServiceTestsWithEnumeratorPasses]
-      name: ServiceTestsWithEnumeratorPasses
-      fullName: CRL.Survivors.Tests.ServiceTests.ServiceTestsWithEnumeratorPasses
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1029
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/[CRL.Survivors.Tests][CRL.Survivors.Tests.ServiceTests][suite]
-    - id: 1032
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/[CRL.Survivors.Tests][CRL.Survivors.Tests.Vector2ExtensionTests][suite]
-      name: Vector2ExtensionTests
-      fullName: CRL.Survivors.Tests.Vector2ExtensionTests
-      resultStatus: 1
-      duration: 0.0155306
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1037
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/[CRL.Survivors.Tests][CRL.Survivors.Tests][suite]
-    - id: 1033
-      uniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/Vector2ExtensionTests/[CRL.Survivors.Tests][CRL.Survivors.Tests.Vector2ExtensionTests.RotateTest]
-      name: RotateTest
-      fullName: CRL.Survivors.Tests.Vector2ExtensionTests.RotateTest
-      resultStatus: 1
-      duration: 0.0065303
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1032
-      parentUniqueId: CRL.Survivors.Tests.dll/CRL/Survivors/Tests/[CRL.Survivors.Tests][CRL.Survivors.Tests.Vector2ExtensionTests][suite]
-    m_ResultText: RotateTest (0.007s)
+    m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 328c7fab
-      m_LastClickedID: -1417704398
-      m_ExpandedIDs: 7de6d2970050fccacdde79cfd4dce9f18ff12afa14f0170573fa560ba415d61679528d293548dd3f4ad142537d1ad05cffffff7f
+      m_SelectedIDs: a394018b
+      m_LastClickedID: -1962830685
+      m_ExpandedIDs: 671b4a967de6d2970050fccacdde79cfd4dce9f18ff12afa14f0170573fa560ba415d616a27c762079528d295d145a33c0989f330f53853d3548dd3f7898ad454ad142537d1ad05cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2638,14 +2569,14 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 24}
+    m_Window: {fileID: 27}
     m_NewResultList:
     - id: 1000
-      uniqueId: '[MadSurvivors][suite]'
-      name: MadSurvivors
-      fullName: MadSurvivors
+      uniqueId: '[BlobHashMap][suite]'
+      name: BlobHashMap
+      fullName: BlobHashMap
       resultStatus: 1
-      duration: 0.0883017
+      duration: 0.0459652
       messages: 
       output: 
       stacktrace: 
@@ -2656,261 +2587,76 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1012
-      uniqueId: '[com.gameframe.saveload.editor.tests.dll][suite]'
-      name: com.gameframe.saveload.editor.tests.dll
-      fullName: /Users/crlstudios/GitHub/Survivors/SurvivorsSource/Library/ScriptAssemblies/com.gameframe.saveload.editor.tests.dll
-      resultStatus: 1
-      duration: 0.0693714
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[MadSurvivors][suite]'
-    - id: 1013
-      uniqueId: com.gameframe.saveload.editor.tests.dll/[Gameframe][suite]
-      name: Gameframe
-      fullName: Gameframe
-      resultStatus: 1
-      duration: 0.0686388
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1012
-      parentUniqueId: '[com.gameframe.saveload.editor.tests.dll][suite]'
-    - id: 1014
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/[SaveLoad][suite]
-      name: SaveLoad
-      fullName: Gameframe.SaveLoad
-      resultStatus: 1
-      duration: 0.0648347
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1013
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/[Gameframe][suite]
-    - id: 1015
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests][suite]
-      name: Tests
-      fullName: Gameframe.SaveLoad.Tests
-      resultStatus: 1
-      duration: 0.0611869
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1014
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/[SaveLoad][suite]
-    - id: 1001
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests][suite]
-      name: SaveLoadUtilityTests
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests
-      resultStatus: 1
-      duration: 0.057293
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1015
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests][suite]
-    - id: 1010
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFiles]
-      name: CanGetFiles
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFiles
-      resultStatus: 1
-      duration: 0.0009555
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests][suite]
-    - id: 1009
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFiles_Empty]
-      name: CanGetFiles_Empty
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFiles_Empty
-      resultStatus: 1
-      duration: 0.0001153
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests][suite]
-    - id: 1011
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFilesWithExtension]
-      name: CanGetFilesWithExtension
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.CanGetFilesWithExtension
-      resultStatus: 1
-      duration: 0.0003637
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests][suite]
-    - id: 1008
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
-      name: SaveLoadAndDelete
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete
-      resultStatus: 1
-      duration: 0.0516974
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests][suite]
-    - id: 1002
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Default)]
-      name: SaveLoadAndDelete(Default)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Default)
-      resultStatus: 1
-      duration: 0.0006559
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
-    - id: 1003
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Binary)]
-      name: SaveLoadAndDelete(Binary)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Binary)
-      resultStatus: 1
-      duration: 0.0003926
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
-    - id: 1004
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(UnityJson)]
-      name: SaveLoadAndDelete(UnityJson)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(UnityJson)
-      resultStatus: 1
-      duration: 0.000344
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
-    - id: 1005
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(BinaryEncrypted)]
-      name: SaveLoadAndDelete(BinaryEncrypted)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(BinaryEncrypted)
-      resultStatus: 1
-      duration: 0.0166023
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
     - id: 1006
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(UnityJsonEncrypted)]
-      name: SaveLoadAndDelete(UnityJsonEncrypted)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(UnityJsonEncrypted)
+      uniqueId: '[CRL.BlobHashMap.Tests.dll][suite]'
+      name: CRL.BlobHashMap.Tests.dll
+      fullName: /Users/crlstudios/GitHub/BlobHashMaps/Library/ScriptAssemblies/CRL.BlobHashMap.Tests.dll
       resultStatus: 1
-      duration: 0.0168061
+      duration: 0.0321548
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[BlobHashMap][suite]'
     - id: 1007
-      uniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/SaveLoadAndDelete/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Custom)]
-      name: SaveLoadAndDelete(Custom)
-      fullName: Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete(Custom)
+      uniqueId: CRL.BlobHashMap.Tests.dll/[CRL][suite]
+      name: CRL
+      fullName: CRL
       resultStatus: 1
-      duration: 0.0004428
+      duration: 0.0291219
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: '[CRL.BlobHashMap.Tests.dll][suite]'
+    - id: 1008
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/[BlobHashMaps][suite]
+      name: BlobHashMaps
+      fullName: CRL.BlobHashMaps
+      resultStatus: 1
+      duration: 0.0254671
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/[CRL][suite]
+    - id: 1009
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests][suite]
+      name: Tests
+      fullName: CRL.BlobHashMaps.Tests
+      resultStatus: 1
+      duration: 0.021627
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
       parentId: 1008
-      parentUniqueId: com.gameframe.saveload.editor.tests.dll/Gameframe/SaveLoad/Tests/SaveLoadUtilityTests/[com.gameframe.saveload.editor.tests][Gameframe.SaveLoad.Tests.SaveLoadUtilityTests.SaveLoadAndDelete][suite]
-    - id: 1032
-      uniqueId: '[CRL.EventBus.Tests.dll][suite]'
-      name: CRL.EventBus.Tests.dll
-      fullName: /Users/crlstudios/GitHub/Survivors/SurvivorsSource/Library/ScriptAssemblies/CRL.EventBus.Tests.dll
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/[BlobHashMaps][suite]
+    - id: 1004
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+      name: BlobHashMapTests
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests
       resultStatus: 1
-      duration: 0.0197555
+      duration: 0.0178429
       messages: 
       output: 
       stacktrace: 
@@ -2919,78 +2665,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1012
-      parentUniqueId: '[MadSurvivors][suite]'
-    - id: 1033
-      uniqueId: CRL.EventBus.Tests.dll/[CRL][suite]
-      name: CRL
-      fullName: CRL
+      parentId: 1009
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests][suite]
+    - id: 1005
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapAddContainsKey]
+      name: HashMapAddContainsKey
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapAddContainsKey
       resultStatus: 1
-      duration: 0.0179476
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1032
-      parentUniqueId: '[CRL.EventBus.Tests.dll][suite]'
-    - id: 1034
-      uniqueId: CRL.EventBus.Tests.dll/CRL/[EventBus][suite]
-      name: EventBus
-      fullName: CRL.EventBus
-      resultStatus: 1
-      duration: 0.0143578
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1033
-      parentUniqueId: CRL.EventBus.Tests.dll/[CRL][suite]
-    - id: 1035
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/[CRL.EventBus.Tests][CRL.EventBus.Tests][suite]
-      name: Tests
-      fullName: CRL.EventBus.Tests
-      resultStatus: 1
-      duration: 0.0103818
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1034
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/[EventBus][suite]
-    - id: 1028
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-      name: EventBusTests
-      fullName: CRL.EventBus.Tests.EventBusTests
-      resultStatus: 1
-      duration: 0.0068303
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1035
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/[CRL.EventBus.Tests][CRL.EventBus.Tests][suite]
-    - id: 1020
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_MultipleBindings]
-      name: EventBus_CanRaiseEvent_MultipleBindings
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_MultipleBindings
-      resultStatus: 1
-      duration: 0.0000942
+      duration: 0.0027105
       messages: 
       output: 
       stacktrace: 
@@ -3000,14 +2682,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1021
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_MultipleBindings_Remove]
-      name: EventBus_CanRaiseEvent_MultipleBindings_Remove
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_MultipleBindings_Remove
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1011
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashmapCheckKeys]
+      name: HashmapCheckKeys
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashmapCheckKeys
       resultStatus: 1
-      duration: 0.0000538
+      duration: 0.0051552
       messages: 
       output: 
       stacktrace: 
@@ -3017,14 +2699,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1030
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_NoArgs]
-      name: EventBus_CanRaiseEvent_NoArgs
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_NoArgs
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1006
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapExactlyFull]
+      name: HashMapExactlyFull
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapExactlyFull
       resultStatus: 1
-      duration: 0.0000359
+      duration: 0.0005653
       messages: 
       output: 
       stacktrace: 
@@ -3034,14 +2716,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1028
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1031
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_WithArgs]
-      name: EventBus_CanRaiseEvent_WithArgs
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_CanRaiseEvent_WithArgs
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1008
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapKeyNotPresent]
+      name: HashMapKeyNotPresent
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapKeyNotPresent
       resultStatus: 1
-      duration: 0.0000336
+      duration: 0.0010468
       messages: 
       output: 
       stacktrace: 
@@ -3051,14 +2733,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1028
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1022
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_Clear]
-      name: EventBus_Clear
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_Clear
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1004
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsEmpty]
+      name: HashMapsEmpty
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsEmpty
       resultStatus: 1
-      duration: 0.0000338
+      duration: 0.000053
       messages: 
       output: 
       stacktrace: 
@@ -3068,14 +2750,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1029
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_CreateBindingIsNotNull]
-      name: EventBus_CreateBindingIsNotNull
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_CreateBindingIsNotNull
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1005
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsFull]
+      name: HashMapsFull
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsFull
       resultStatus: 1
-      duration: 0.0000375
+      duration: 0.0005322
       messages: 
       output: 
       stacktrace: 
@@ -3085,14 +2767,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1028
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1023
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.EventBus_EventListener_Dispose]
-      name: EventBus_EventListener_Dispose
-      fullName: CRL.EventBus.Tests.EventBusTests.EventBus_EventListener_Dispose
+      parentId: 1004
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1009
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapSumValues]
+      name: HashMapSumValues
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapSumValues
       resultStatus: 1
-      duration: 0.0000332
+      duration: 0.0001285
       messages: 
       output: 
       stacktrace: 
@@ -3102,132 +2784,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1024
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.ExceptionInBindingDoesNotCrashEventBus]
-      name: ExceptionInBindingDoesNotCrashEventBus
-      fullName: CRL.EventBus.Tests.EventBusTests.ExceptionInBindingDoesNotCrashEventBus
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1003
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsZeroCapacity]
+      name: HashMapsZeroCapacity
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.HashMapsZeroCapacity
       resultStatus: 1
-      duration: 0.0011421
-      messages: 
-      output: 'Exception: Test Exception
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1025
-      uniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/EventBusTests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests.ExceptionInBindingDoesNotCrashEventBus_ReverseOrder]
-      name: ExceptionInBindingDoesNotCrashEventBus_ReverseOrder
-      fullName: CRL.EventBus.Tests.EventBusTests.ExceptionInBindingDoesNotCrashEventBus_ReverseOrder
-      resultStatus: 1
-      duration: 0.0009265
-      messages: 
-      output: 'Exception: Test Exception
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: CRL.EventBus.Tests.dll/CRL/EventBus/Tests/[CRL.EventBus.Tests][CRL.EventBus.Tests.EventBusTests][suite]
-    - id: 1035
-      uniqueId: '[CRL.StatSheets.Tests.dll][suite]'
-      name: CRL.StatSheets.Tests.dll
-      fullName: /Users/crlstudios/GitHub/Survivors/SurvivorsSource/Library/ScriptAssemblies/CRL.StatSheets.Tests.dll
-      resultStatus: 1
-      duration: 0.130604
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[MadSurvivors][suite]'
-    - id: 1036
-      uniqueId: CRL.StatSheets.Tests.dll/[CRL][suite]
-      name: CRL
-      fullName: CRL
-      resultStatus: 1
-      duration: 0.1283954
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1035
-      parentUniqueId: '[CRL.StatSheets.Tests.dll][suite]'
-    - id: 1037
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/[StatSheets][suite]
-      name: StatSheets
-      fullName: CRL.StatSheets
-      resultStatus: 1
-      duration: 0.1223249
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1036
-      parentUniqueId: CRL.StatSheets.Tests.dll/[CRL][suite]
-    - id: 1038
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/[CRL.StatSheets.Tests][CRL.StatSheets.Tests][suite]
-      name: Tests
-      fullName: CRL.StatSheets.Tests
-      resultStatus: 1
-      duration: 0.1215375
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1037
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/[StatSheets][suite]
-    - id: 1030
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-      name: StatSheetTests
-      fullName: CRL.StatSheets.Tests.StatSheetTests
-      resultStatus: 1
-      duration: 0.1170495
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1038
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/[CRL.StatSheets.Tests][CRL.StatSheets.Tests][suite]
-    - id: 1034
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.Equipment_RemoveItem]
-      name: Equipment_RemoveItem
-      fullName: CRL.StatSheets.Tests.StatSheetTests.Equipment_RemoveItem
-      resultStatus: 1
-      duration: 0.0570411
+      duration: 0.000162
       messages: 
       output: 
       stacktrace: 
@@ -3237,14 +2801,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1037
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.Equipment_RemoveItem_DupedItem]
-      name: Equipment_RemoveItem_DupedItem
-      fullName: CRL.StatSheets.Tests.StatSheetTests.Equipment_RemoveItem_DupedItem
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1007
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashMapAddDuplicateKey]
+      name: MultiHashMapAddDuplicateKey
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashMapAddDuplicateKey
       resultStatus: 1
-      duration: 0.0003744
+      duration: 0.0003075
       messages: 
       output: 
       stacktrace: 
@@ -3254,14 +2818,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1034
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.GetDeltaStats]
-      name: GetDeltaStats
-      fullName: CRL.StatSheets.Tests.StatSheetTests.GetDeltaStats
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1012
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashmapCheckKeys]
+      name: MultiHashmapCheckKeys
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashmapCheckKeys
       resultStatus: 1
-      duration: 0.0014318
+      duration: 0.0020127
       messages: 
       output: 
       stacktrace: 
@@ -3271,14 +2835,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1031
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.NeedsUpdateOnCreate]
-      name: NeedsUpdateOnCreate
-      fullName: CRL.StatSheets.Tests.StatSheetTests.NeedsUpdateOnCreate
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    - id: 1010
+      uniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/BlobHashMapTests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashMapSumValues]
+      name: MultiHashMapSumValues
+      fullName: CRL.BlobHashMaps.Tests.BlobHashMapTests.MultiHashMapSumValues
       resultStatus: 1
-      duration: 0.0005132
+      duration: 0.0002374
       messages: 
       output: 
       stacktrace: 
@@ -3288,100 +2852,15 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1032
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanGetBaseStats]
-      name: StatSheet_CanGetBaseStats
-      fullName: CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanGetBaseStats
-      resultStatus: 1
-      duration: 0.0001502
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1033
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_Add]
-      name: StatSheet_CanModify_Add
-      fullName: CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_Add
-      resultStatus: 1
-      duration: 0.0003
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1034
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_Multiply]
-      name: StatSheet_CanModify_Multiply
-      fullName: CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_Multiply
-      resultStatus: 1
-      duration: 0.0002163
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1035
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_NegativeMultiplier]
-      name: StatSheet_CanModify_NegativeMultiplier
-      fullName: CRL.StatSheets.Tests.StatSheetTests.StatSheet_CanModify_NegativeMultiplier
-      resultStatus: 1
-      duration: 0.0001996
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    - id: 1035
-      uniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/StatSheetTests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests.StatSheet_ModifyBaseStats]
-      name: StatSheet_ModifyBaseStats
-      fullName: CRL.StatSheets.Tests.StatSheetTests.StatSheet_ModifyBaseStats
-      resultStatus: 1
-      duration: 0.0003163
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: CRL.StatSheets.Tests.dll/CRL/StatSheets/Tests/[CRL.StatSheets.Tests][CRL.StatSheets.Tests.StatSheetTests][suite]
-    m_ResultText: SaveLoadUtilityTests (0.057s)
+      parentId: 1001
+      parentUniqueId: CRL.BlobHashMap.Tests.dll/CRL/BlobHashMaps/Tests/[CRL.BlobHashMap.Tests][CRL.BlobHashMaps.Tests.BlobHashMapTests][suite]
+    m_ResultText: BlobHashMapTests (0.018s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e35e30d
-      m_LastClickedID: 232994206
-      m_ExpandedIDs: 75cb6a8cd9f8e2a82611aab6cdde79cfd4dce9f1a066f3f5f414650414f017059e35e30db838a60fa415d6169098302279528d29657a583b3548dd3fd51ce149d0760d74ffffff7f
+      m_SelectedIDs: c0989f33
+      m_LastClickedID: 866097344
+      m_ExpandedIDs: 75cb6a8c671b4a96d9f8e2a82611aab6cdde79cfd4dce9f1a066f3f5f414650414f017059e35e30db838a60fa415d616a27c76209098302279528d295d145a33657a583b0f53853d3548dd3f7898ad45d51ce149d0760d74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
