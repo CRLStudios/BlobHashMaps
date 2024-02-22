@@ -44,6 +44,25 @@ namespace CRL.BlobHashMaps
         }
         
         /// <summary>
+        /// Allocates a BlobHashMap and copies all key value pairs from the source NativeHashMap
+        /// </summary>
+        /// <param name="builder">Reference to the struct BlobBuilder used to construct the hashmap</param>
+        /// <param name="blobHashMap">Reference to the struct BlobHashMap field</param>
+        /// <param name="source">Source hashmap to copy keys and values from</param>
+        public static void ConstructHashMap<TKey, TValue>(
+            this ref BlobBuilder builder, ref BlobHashMap<TKey, TValue> blobHashMap, ref NativeHashMap<TKey, TValue> source)
+            where TKey : unmanaged, IEquatable<TKey>
+            where TValue : unmanaged
+        {
+            int count = source.Count;
+            var kv = source.GetKeyValueArrays(Allocator.Temp);
+            var hashMapBuilder = builder.AllocateHashMap(ref blobHashMap, count);
+                
+            for (int i = 0; i < kv.Length; i++)
+                hashMapBuilder.Add(kv.Keys[i], kv.Values[i]);
+        }
+        
+        /// <summary>
         /// Allocates a BlobHashMap and copies all key value pairs from the source dictionary
         /// </summary>
         /// <param name="builder">Reference to the struct BlobBuilder used to construct the hashmap</param>
