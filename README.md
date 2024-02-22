@@ -1,7 +1,7 @@
 
 # Import
 Add the following git url into the unity package manager:
-https://github.com/coryleach/BlobHashMaps.git#upm
+https://github.com/crlstudios/BlobHashMaps.git#upm
 
 # BlobHashMaps
 
