@@ -9,10 +9,8 @@
 #endif
 
 using System;
-using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
-using UnityEditor.Compilation;
 
 namespace CRL.BlobHashMaps.Data
 {
